@@ -1,6 +1,6 @@
 const options = {
 	sourceDir: './src',
-	buildDir: './web',
+	buildDir: './docs',
 	video: {
 		extension: 'mp4',
 		codec: 'libx264',
