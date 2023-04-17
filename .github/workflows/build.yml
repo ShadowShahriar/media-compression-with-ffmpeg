@@ -23,7 +23,7 @@ jobs:
               env:
                   REPO: self
                   BRANCH: serve
-                  FOLDER: docs
-                  TARGET_DIR: docs
+                  FOLDER: web
+                  TARGET_DIR: web
                   MESSAGE: 'Add new files 🎉'
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
