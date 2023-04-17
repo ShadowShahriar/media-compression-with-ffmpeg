@@ -1,0 +1,23 @@
+{
+	"name": "media-compression-with-ffmpeg",
+	"version": "0.0.1",
+	"description": "Compressing media files using ffmpeg",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "node index.js"
+	},
+	"keywords": [
+		"ffmpeg",
+		"nodejs",
+		"js"
+	],
+	"author": "S. Shahriar <shadowshahriar@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"@ffmpeg-installer/ffmpeg": "^1.1.0",
+		"@ffprobe-installer/ffprobe": "^2.0.0",
+		"del": "^7.0.0",
+		"fluent-ffmpeg": "^2.1.2"
+	}
+}
