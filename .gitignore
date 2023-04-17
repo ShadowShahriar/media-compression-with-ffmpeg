@@ -1,8 +1,1 @@
 node_modules
-.github
-src
-ffmpeg.js
-index.config.js
-index.js
-package-lock.json
-package.json
